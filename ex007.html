@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <link rel="stylesheet" href="style_form.css">
+    <script src="ScriptForm.js"></script>
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>Página de Fomulário</h1>
+    <form action="" method="post">
+        <div id="textoInformativo">
+            Olá! Sua contribuição é muito importante para a melhoria dos nossos serviços!<br>
+            Para que possamos atendê-lo da melhor forma possível, insira seus dados abaixo.<br>
+            Assim, poderemos entrar em contato da melhor forma possível. Obrigado!
+        </div>
+        <br> <br> <br>
+        <label for="nomePessoa">Seu nome: </label>
+        <input type="text" name="nomePessoa" id="nomePessoa">
+        <br> <br>
+        <label for="email">Seu e-mail: </label>
+        <input type="email" name="email" id="email">
+        <br> <br>
+        <textarea name="mensagem" id="mensagemPessoa" cols="40" rows="15">Digite aqui sua mensagem...</textarea>
+        <br> <br>
+    </form>
+    <button id="btnEnviar" onclick="enviaDados()">Enviar dados!</button>
+</body>
+
+</html>
